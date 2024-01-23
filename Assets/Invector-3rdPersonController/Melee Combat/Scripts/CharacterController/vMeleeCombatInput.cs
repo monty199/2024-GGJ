@@ -347,6 +347,65 @@ namespace Invector.vCharacterController
 
     }
 
+    public class CameraSwitch : MonoBehaviour
+    {
+        public Camera newCamera;  // Assign the new camera in the Inspector
+        private Camera previousCamera;
+        private vMeleeCombatInput meleeCombatInput;
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.CompareTag("Player"))
+            {
+                SwitchCamera(newCamera);
+            }
+        }
+
+        private void OnTriggerExit(Collider other)
+        {
+            if (other.CompareTag("Player"))
+            {
+                SwitchCamera(previousCamera);
+                ResetController();
+            }
+        }
+
+        private void SwitchCamera(Camera newActiveCamera)
+        {
+            // Deactivate the previous camera
+            if (previousCamera != null)
+            {
+                previousCamera.enabled = false;
+            }
+
+            // Activate the new camera
+            if (newActiveCamera != null)
+            {
+                newActiveCamera.enabled = true;
+
+                // Update the previous camera reference
+                previousCamera = newActiveCamera;
+
+                // Get the MeleeCombatInput component from the player
+                if (meleeCombatInput == null)
+                {
+                    meleeCombatInput = newActiveCamera.GetComponent<vMeleeCombatInput>();
+                }
+            }
+        }
+
+        private void ResetController()
+        {
+            // Reset the controller when switching cameras
+            if (meleeCombatInput != null)
+            {
+                meleeCombatInput.SetLockMeleeInput(false);
+                meleeCombatInput.ResetMeleeAnimations();
+                // Add any additional reset logic here if needed
+            }
+        }
+    }
+
     public static partial class vAnimatorParameters
     {
         public static int AttackID = Animator.StringToHash("AttackID");
