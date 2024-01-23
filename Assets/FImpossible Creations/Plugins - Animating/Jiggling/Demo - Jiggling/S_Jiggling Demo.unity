@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -685,9 +685,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6604dc3407fb5f64f8fed44b2a0b3b9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  ScaleValues: {x: 1, y: 1}
-  EqualDimensions: 0
 --- !u!23 &101790808
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -906,9 +903,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6604dc3407fb5f64f8fed44b2a0b3b9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  ScaleValues: {x: 1, y: 1}
-  EqualDimensions: 0
 --- !u!23 &138085542
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1044,8 +1038,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e786c708c97a0446a78d8ffc16cf1a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  OffsetSpeed: {x: 0.05, y: 0.2}
 --- !u!23 &207065784
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1583,8 +1575,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e786c708c97a0446a78d8ffc16cf1a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  OffsetSpeed: {x: -0.1, y: -0.2}
 --- !u!23 &267480149
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1978,9 +1968,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6604dc3407fb5f64f8fed44b2a0b3b9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  ScaleValues: {x: 1, y: 1}
-  EqualDimensions: 0
 --- !u!23 &405135275
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2543,9 +2530,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6604dc3407fb5f64f8fed44b2a0b3b9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  ScaleValues: {x: 1, y: 1}
-  EqualDimensions: 0
 --- !u!23 &466490263
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2847,9 +2831,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6604dc3407fb5f64f8fed44b2a0b3b9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  ScaleValues: {x: 1, y: 1}
-  EqualDimensions: 0
 --- !u!1 &475088461
 GameObject:
   m_ObjectHideFlags: 0
@@ -2934,8 +2915,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e786c708c97a0446a78d8ffc16cf1a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  OffsetSpeed: {x: 0, y: -0.7}
 --- !u!23 &489558885
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4531,8 +4510,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e786c708c97a0446a78d8ffc16cf1a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  OffsetSpeed: {x: -0.1, y: -0.2}
 --- !u!23 &840993084
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4734,9 +4711,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6604dc3407fb5f64f8fed44b2a0b3b9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  ScaleValues: {x: 1, y: 1}
-  EqualDimensions: 0
 --- !u!23 &891330275
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4960,8 +4934,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e786c708c97a0446a78d8ffc16cf1a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  OffsetSpeed: {x: 0, y: -0.7}
 --- !u!23 &918024260
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6246,8 +6218,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e786c708c97a0446a78d8ffc16cf1a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  OffsetSpeed: {x: -0.1, y: -0.2}
 --- !u!23 &992873168
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6351,8 +6321,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e786c708c97a0446a78d8ffc16cf1a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  OffsetSpeed: {x: -0.1, y: -0.2}
 --- !u!23 &996674752
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6712,9 +6680,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6604dc3407fb5f64f8fed44b2a0b3b9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  ScaleValues: {x: 1, y: 1}
-  EqualDimensions: 0
 --- !u!23 &1070636178
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6888,8 +6853,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e786c708c97a0446a78d8ffc16cf1a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  OffsetSpeed: {x: 0.05, y: 0.2}
 --- !u!23 &1094062415
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7105,8 +7068,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e786c708c97a0446a78d8ffc16cf1a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  OffsetSpeed: {x: 0.05, y: 0.2}
 --- !u!23 &1131237955
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7725,9 +7686,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6604dc3407fb5f64f8fed44b2a0b3b9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  ScaleValues: {x: 1, y: 1}
-  EqualDimensions: 0
 --- !u!23 &1267130668
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8667,9 +8625,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6604dc3407fb5f64f8fed44b2a0b3b9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  ScaleValues: {x: 1, y: 1}
-  EqualDimensions: 0
 --- !u!23 &1483590341
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8788,9 +8743,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6604dc3407fb5f64f8fed44b2a0b3b9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  ScaleValues: {x: 1, y: 1}
-  EqualDimensions: 0
 --- !u!23 &1503292485
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9161,6 +9113,71 @@ Transform:
   - {fileID: 918024258}
   m_Father: {fileID: 447515819}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1001 &1561130670
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100008, guid: b4641da7a95174445b3655517f28b35d, type: 3}
+      propertyPath: m_Name
+      value: BooblyMesh
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: b4641da7a95174445b3655517f28b35d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.7889986
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: b4641da7a95174445b3655517f28b35d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.248
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: b4641da7a95174445b3655517f28b35d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.82496303
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: b4641da7a95174445b3655517f28b35d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.052886665
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: b4641da7a95174445b3655517f28b35d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: b4641da7a95174445b3655517f28b35d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9986006
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: b4641da7a95174445b3655517f28b35d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: b4641da7a95174445b3655517f28b35d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: b4641da7a95174445b3655517f28b35d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 186.063
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: b4641da7a95174445b3655517f28b35d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b4641da7a95174445b3655517f28b35d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1802388206}
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: b4641da7a95174445b3655517f28b35d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1802388207}
+  m_SourcePrefab: {fileID: 100100000, guid: b4641da7a95174445b3655517f28b35d, type: 3}
 --- !u!1 &1563074099
 GameObject:
   m_ObjectHideFlags: 0
@@ -9208,8 +9225,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e786c708c97a0446a78d8ffc16cf1a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  OffsetSpeed: {x: -0.1, y: -0.2}
 --- !u!23 &1563074102
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9492,8 +9507,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e786c708c97a0446a78d8ffc16cf1a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  OffsetSpeed: {x: 0, y: -0.7}
 --- !u!23 &1629479393
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9984,9 +9997,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6604dc3407fb5f64f8fed44b2a0b3b9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  ScaleValues: {x: 1, y: 1}
-  EqualDimensions: 0
 --- !u!23 &1690985648
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10184,9 +10194,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6604dc3407fb5f64f8fed44b2a0b3b9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  ScaleValues: {x: 1, y: 1}
-  EqualDimensions: 0
 --- !u!23 &1701151256
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10337,8 +10344,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e786c708c97a0446a78d8ffc16cf1a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  OffsetSpeed: {x: 0.05, y: 0.2}
 --- !u!23 &1725301489
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10465,6 +10470,57 @@ MonoBehaviour:
   ScaleAxesMultiplier: {x: 1, y: 1, z: 1}
   RotationAxesMultiplier: {x: 1, y: 1, z: 1}
   ReJigglePower: 2.25
+--- !u!1 &1802388203 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: b4641da7a95174445b3655517f28b35d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1561130670}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1802388206
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802388203}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.3214537, y: 1, z: 1.5544392}
+  m_Center: {x: 0.16072693, y: 0.0000000136109435, z: -0.27721956}
+--- !u!114 &1802388207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802388203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8076533fa25b9544aad54d648eb9433, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  JiggleTiltValue: 12
+  JiggleFrequency: 22
+  JiggleDecelerate: 1.5
+  AdditionalSpeedValue: 1
+  ConstantJiggleValue: 0
+  RandomLevel: 1
+  drawGizmo: 1
+  TransformToAnimate: {fileID: 0}
+  ScaleAxesMultiplier: {x: 1, y: 1, z: 1}
+  RotationAxesMultiplier: {x: 1, y: 0, z: 1}
+  ReJigglePower: 2
+  NoRotationKeyframes: 0
 --- !u!1 &1806203252
 GameObject:
   m_ObjectHideFlags: 0
@@ -10545,8 +10601,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e786c708c97a0446a78d8ffc16cf1a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  OffsetSpeed: {x: 0, y: -0.7}
 --- !u!23 &1811266360
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11181,8 +11235,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e786c708c97a0446a78d8ffc16cf1a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  OffsetSpeed: {x: 0.05, y: 0.2}
 --- !u!23 &1962682503
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11352,9 +11404,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6604dc3407fb5f64f8fed44b2a0b3b9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  ScaleValues: {x: 1, y: 1}
-  EqualDimensions: 0
 --- !u!23 &2016531403
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11458,8 +11507,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e786c708c97a0446a78d8ffc16cf1a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextureProperty: _MainTex
-  OffsetSpeed: {x: 0, y: -0.7}
 --- !u!23 &2025885411
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11668,3 +11715,4 @@ SceneRoots:
   - {fileID: 1366876224}
   - {fileID: 280725907}
   - {fileID: 2036395417}
+  - {fileID: 1561130670}
