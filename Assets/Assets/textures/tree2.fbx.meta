@@ -9,6 +9,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: branches
     second: {fileID: 2100000, guid: 61e7ac51adddba444b2fb9e4f21fc33d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree2
+    second: {fileID: 2100000, guid: 1758ba9e2dc19f342a96e65393a722ca, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: CircusTent
+    second: {fileID: 2100000, guid: 54dc20f0c451e8b459f508c0250aa2e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: standardSurface1
     second: {fileID: 2100000, guid: 821ddbeef5f3a0b40a969fdf0091cc1c, type: 2}
   materials:
