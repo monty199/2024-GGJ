@@ -195,11 +195,82 @@ MonoBehaviour:
     fixedAngle: {x: 0, y: 0}
     lookPoints:
     - pointName: point_01
-      positionPoint: {x: -37.45, y: 3.56, z: -1.4700087}
+      positionPoint: {x: -37.44993, y: 3.56, z: -1.4700375}
       eulerAngle: {x: -0, y: 90, z: -0}
       freeRotation: 0
     - pointName: point_02
-      positionPoint: {x: -24.429976, y: 2.06, z: -10.28997}
-      eulerAngle: {x: -0, y: 43.46585, z: -0}
+      positionPoint: {x: -24.429962, y: 2.06, z: -10.289976}
+      eulerAngle: {x: -0, y: 43.465855, z: -0}
+      freeRotation: 1
+    - pointName: point_00
+      positionPoint: {x: -128.95, y: 3.9, z: 26.919998}
+      eulerAngle: {x: -0, y: 90, z: -0}
+      freeRotation: 1
+    - pointName: point_04
+      positionPoint: {x: -133.66287, y: 7.2000003, z: 12.787025}
+      eulerAngle: {x: -0, y: 124.26673, z: -0}
+      freeRotation: 0
+    cameraMode: 2
+  - Name: LevelOne
+    forward: 60
+    right: 0
+    defaultDistance: 1.5
+    maxDistance: 3
+    minDistance: 0.5
+    height: 0
+    smooth: 10
+    smoothDamp: 0
+    xMouseSensitivity: 3
+    yMouseSensitivity: 3
+    yMinLimit: -40
+    yMaxLimit: 80
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 0, y: 0, z: 0}
+    cullingHeight: 0.2
+    cullingMinDist: 0.1
+    fov: 60
+    useZoom: 0
+    fixedAngle: {x: 0, y: 0}
+    lookPoints:
+    - pointName: point_01
+      positionPoint: {x: -13.891, y: 2.214, z: -1.4700071}
+      eulerAngle: {x: 10.869465, y: 89.99984, z: -0.000034340144}
+      freeRotation: 1
+    - pointName: point_02
+      positionPoint: {x: 1.4789972, y: 2.606, z: -0.400962}
+      eulerAngle: {x: 19.94782, y: 225.70737, z: 0.000014532262}
+      freeRotation: 1
+    - pointName: point_03
+      positionPoint: {x: -0.60997105, y: 1.45, z: -11.566968}
+      eulerAngle: {x: -0, y: 59.28318, z: -0}
+      freeRotation: 1
+    - pointName: point_04
+      positionPoint: {x: 10.300029, y: 2.55, z: -11.329937}
+      eulerAngle: {x: 18.057926, y: 314.15558, z: 0.000004490031}
+      freeRotation: 0
+    - pointName: point_05
+      positionPoint: {x: 5.0979986, y: 2.225, z: -0.5829526}
+      eulerAngle: {x: 11.856454, y: 127.12493, z: 344.99997}
+      freeRotation: 1
+    - pointName: point_06
+      positionPoint: {x: 16.089989, y: 2.225, z: 2.0500813}
+      eulerAngle: {x: 11.856465, y: 194.9224, z: -0.000007633375}
+      freeRotation: 1
+    - pointName: point_07
+      positionPoint: {x: 13.970027, y: 0.21, z: -10.459927}
+      eulerAngle: {x: 341.85654, y: 89.92406, z: 0.038800225}
+      freeRotation: 1
+    - pointName: point_08
+      positionPoint: {x: 26.620018, y: 2.67, z: -7.6798897}
+      eulerAngle: {x: 354.95578, y: 225.85588, z: 0.037005637}
+      freeRotation: 0
+    - pointName: point_09
+      positionPoint: {x: -19.030003, y: 7.74, z: -0.42399704}
+      eulerAngle: {x: 43.193783, y: 122.86919, z: -0.00002107959}
+      freeRotation: 1
+    - pointName: point_10
+      positionPoint: {x: -22.95, y: 7.39, z: -1.4700085}
+      eulerAngle: {x: -0, y: 89.99983, z: -0}
       freeRotation: 1
     cameraMode: 2
