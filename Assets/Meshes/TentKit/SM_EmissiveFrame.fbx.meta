@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d891c72d04ba2a64bab4595acc10e0f2
+guid: 43ca17fa11638c343b96b0b16431bf9b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -10,7 +10,7 @@ ModelImporter:
       name: standardSurface1
     second: {fileID: 2100000, guid: 821ddbeef5f3a0b40a969fdf0091cc1c, type: 2}
   materials:
-    materialImportMode: 2
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -95,7 +95,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 100
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
