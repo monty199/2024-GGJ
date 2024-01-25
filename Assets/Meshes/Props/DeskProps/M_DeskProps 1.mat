@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_DeskProps
+  m_Name: M_DeskProps 1
   m_Shader: {fileID: -6465566751694194690, guid: 7c6b537d88132274f8120ae44b7ae9df,
     type: 3}
   m_Parent: {fileID: 0}
@@ -38,7 +38,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BC:
-        m_Texture: {fileID: 2800000, guid: a74ddc8ff479afb46846a3c6cfdec59d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 102ee3a3beb30e14fbdf68893759fbd7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
