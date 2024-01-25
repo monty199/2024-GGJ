@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/SCN_IntroCutsceneDialogue.unity
     guid: 78ea410b6e060624688267310229f3c0
   - enabled: 1
+    path: Assets/Scenes/SCN_Intro_1.unity
+    guid: 23bdffdaccccfbc49b6be6dd4c4f2563
+  - enabled: 1
+    path: Assets/Scenes/SCN_Intro_2.unity
+    guid: c4d818c35e1ed4547b954a9613aeced4
+  - enabled: 1
     path: Assets/Scenes/Levels/SCN_Level_1.unity
     guid: 29106079f5b0b9845a0face6e0fc77ec
   - enabled: 1

@@ -1008,9 +1008,9 @@ GameObject:
   - component: {fileID: 6096870020618342701}
   - component: {fileID: 6603374249898197388}
   - component: {fileID: 6050727135453676846}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: hitBox
-  m_TagString: Untagged
+  m_TagString: Ignore Ragdoll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11115,9 +11115,9 @@ GameObject:
   - component: {fileID: 1397735577065292435}
   - component: {fileID: 6786657483198635879}
   - component: {fileID: 3394976505779326415}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: hitBox
-  m_TagString: Untagged
+  m_TagString: Ignore Ragdoll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11384,9 +11384,9 @@ GameObject:
   - component: {fileID: 7149471474694208633}
   - component: {fileID: 4002808163616074407}
   - component: {fileID: 862099235057411036}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: hitBox
-  m_TagString: Untagged
+  m_TagString: Ignore Ragdoll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13794,7 +13794,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openCloseEvents: 0
-  openCloseWindow: 0
+  openCloseWindow: 1
   selectedToolbar: 0
   Members:
   - transform: {fileID: 3975507130142587603}
@@ -13840,7 +13840,8 @@ MonoBehaviour:
       serializedVersion: 2
       m_Bits: 1
   leftWeapon: {fileID: 0}
-  rightWeapon: {fileID: 0}
+  rightWeapon: {fileID: 5741347502633984206, guid: 417d718c006f28c4282a0d0548d898a3,
+    type: 3}
   onDamageHit:
     m_PersistentCalls:
       m_Calls: []
@@ -13865,7 +13866,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5984269072859159420}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 19ce6a4d1f67f494f8e871355031f21c, type: 3}
   m_Name: 
@@ -14131,7 +14132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openCloseEvents: 0
   openCloseWindow: 1
-  selectedToolbar: 2
+  selectedToolbar: 0
   actionTag: Action
   useRootMotion: 1
   debugMode: 0
@@ -14164,7 +14165,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5984269072859159420}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 47c91cac344662340bbbedbdbed00328, type: 3}
   m_Name: 
@@ -14285,9 +14286,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openCloseEvents: 0
-  openCloseWindow: 0
+  openCloseWindow: 1
   selectedToolbar: 0
-  hideWeaponsAutomatically: 1
+  hideWeaponsAutomatically: 0
   hideWeaponsTimer: 5
   lockInventoryInputOnLock: 0
   isLocked: 0
@@ -20858,9 +20859,9 @@ GameObject:
   - component: {fileID: 7198159072978462812}
   - component: {fileID: 3156234226671955773}
   - component: {fileID: 4641672510541686999}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: hitBox
-  m_TagString: Untagged
+  m_TagString: Ignore Ragdoll
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
