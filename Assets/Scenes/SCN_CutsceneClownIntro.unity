@@ -2011,7 +2011,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayBeforeLoading: 0.1
-  sceneNameToLoad: SCN_Level_1
+  sceneNameToLoad: SCN_Level_2
 --- !u!4 &555398453
 Transform:
   m_ObjectHideFlags: 0
@@ -2172,11 +2172,11 @@ Transform:
   m_GameObject: {fileID: 559256367}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -110.74999, y: 0.3, z: 79.96}
+  m_LocalPosition: {x: 14.400002, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 600130802}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &561019462 stripped
 GameObject:
@@ -2453,6 +2453,8 @@ Transform:
   - {fileID: 1791980019}
   - {fileID: 763550252}
   - {fileID: 1658016619}
+  - {fileID: 2118474450}
+  - {fileID: 559256370}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &610195927
@@ -2619,7 +2621,7 @@ MonoBehaviour:
   - they look like they mean business"
   textSpeed: 0.01
   usingItem: {fileID: 600130801}
-  nextItem: {fileID: 610195927}
+  nextItem: {fileID: 555398451}
 --- !u!1 &705939160
 GameObject:
   m_ObjectHideFlags: 0
@@ -5261,8 +5263,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 141913347}
   lines:
-  - '"This place is FUNKY!"'
-  - '"It is a bit dark in here"'
+  - Our hero enters a very dark room.
+  - '"This is a very dark room" he says.'
   textSpeed: 0.01
   usingItem: {fileID: 477936281}
   nextItem: {fileID: 610195927}
@@ -5855,7 +5857,7 @@ MonoBehaviour:
   - and you will never get him back!"
   textSpeed: 0.01
   usingItem: {fileID: 1218328204}
-  nextItem: {fileID: 0}
+  nextItem: {fileID: 600130801}
 --- !u!1 &1734508246
 GameObject:
   m_ObjectHideFlags: 0
@@ -6627,11 +6629,11 @@ Transform:
   m_GameObject: {fileID: 2118474447}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -110.17, y: 0.3, z: 76.83}
+  m_LocalPosition: {x: 14.979996, y: 0, z: -3.1299973}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 600130802}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -6645,6 +6647,4 @@ SceneRoots:
   - {fileID: 104770907}
   - {fileID: 1218328205}
   - {fileID: 600130802}
-  - {fileID: 2118474450}
-  - {fileID: 559256370}
   - {fileID: 555398453}

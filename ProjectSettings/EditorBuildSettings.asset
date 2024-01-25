@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/SCN_IntroCutsceneDialogue.unity
+    path: Assets/Scenes/Levels/SCN_IntroCutsceneDialogue.unity
     guid: 78ea410b6e060624688267310229f3c0
   - enabled: 1
     path: Assets/Scenes/Levels/SCN_Level_1.unity
@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SCN_CutsceneClownIntro.unity
     guid: 22cb24ad34d7fc149a57cc94ec5cd268
+  - enabled: 1
+    path: Assets/Scenes/Levels/SCN_Level_2.unity
+    guid: 6d2630585b1d83e4494ae96a850e58e7
   m_configObjects: {}
