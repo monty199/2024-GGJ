@@ -234,36 +234,36 @@ MonoBehaviour:
     fixedAngle: {x: 0, y: 0}
     lookPoints:
     - pointName: point_01
-      positionPoint: {x: -13.891, y: 2.214, z: -1.4700071}
-      eulerAngle: {x: 10.869465, y: 89.99984, z: -0.000034340144}
+      positionPoint: {x: 2, y: 2, z: -6}
+      eulerAngle: {x: -0, y: 0, z: 0}
       freeRotation: 1
     - pointName: point_02
-      positionPoint: {x: 1.4789972, y: 2.606, z: -0.400962}
-      eulerAngle: {x: 19.94782, y: 225.70737, z: 0.000014532262}
+      positionPoint: {x: 1.4789982, y: 2.606, z: -0.400962}
+      eulerAngle: {x: 28.444567, y: 215.82195, z: 0.000016506892}
       freeRotation: 1
     - pointName: point_03
-      positionPoint: {x: -0.60997105, y: 1.45, z: -11.566968}
+      positionPoint: {x: -0.609972, y: 1.4499998, z: -11.566968}
       eulerAngle: {x: -0, y: 59.28318, z: -0}
       freeRotation: 1
     - pointName: point_04
-      positionPoint: {x: 10.300029, y: 2.55, z: -11.329937}
-      eulerAngle: {x: 18.057926, y: 314.15558, z: 0.000004490031}
+      positionPoint: {x: 10.300028, y: 2.55, z: -11.329937}
+      eulerAngle: {x: 18.057932, y: 314.15558, z: 0.0000049390337}
       freeRotation: 0
     - pointName: point_05
-      positionPoint: {x: 5.0979986, y: 2.225, z: -0.5829526}
+      positionPoint: {x: 5.0979977, y: 2.225, z: -0.5829526}
       eulerAngle: {x: 11.856454, y: 127.12493, z: 344.99997}
       freeRotation: 1
     - pointName: point_06
-      positionPoint: {x: 16.089989, y: 2.225, z: 2.0500813}
-      eulerAngle: {x: 11.856465, y: 194.9224, z: -0.000007633375}
+      positionPoint: {x: 16.089987, y: 2.225, z: 2.0500813}
+      eulerAngle: {x: 11.856468, y: 194.9224, z: -0.0000076333745}
       freeRotation: 1
     - pointName: point_07
-      positionPoint: {x: 13.970027, y: 0.21, z: -10.459927}
+      positionPoint: {x: 13.970026, y: 0.21000004, z: -10.459927}
       eulerAngle: {x: 341.85654, y: 89.92406, z: 0.038800225}
       freeRotation: 1
     - pointName: point_08
-      positionPoint: {x: 26.620018, y: 2.67, z: -7.6798897}
-      eulerAngle: {x: 354.95578, y: 225.85588, z: 0.037005637}
+      positionPoint: {x: 20.999998, y: 3, z: -12.71}
+      eulerAngle: {x: 354.95578, y: 50.4048, z: 0.03700542}
       freeRotation: 0
     - pointName: point_09
       positionPoint: {x: -19.030003, y: 7.74, z: -0.42399704}
