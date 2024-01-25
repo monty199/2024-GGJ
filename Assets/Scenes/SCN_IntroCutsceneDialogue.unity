@@ -4708,7 +4708,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayBeforeLoading: 0.1
-  sceneNameToLoad: SCN_Intro_01
+  sceneNameToLoad: SCN_Level_1
 --- !u!4 &555398453
 Transform:
   m_ObjectHideFlags: 0

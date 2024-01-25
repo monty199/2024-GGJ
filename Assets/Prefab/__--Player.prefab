@@ -243,7 +243,7 @@ RectTransform:
   m_Father: {fileID: 4736360890679544018}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -13343,7 +13343,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openCloseEvents: 0
   openCloseWindow: 1
-  selectedToolbar: 1
+  selectedToolbar: 4
   _isDead: 1
   _currentHealth: 0
   isImmortal: 0
@@ -13393,7 +13393,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _maxStamina: 200
-  _staminaRecovery: 1.2
+  _staminaRecovery: 100
   _sprintStamina: 30
   _jumpStamina: 30
   _rollStamina: 25
@@ -14869,7 +14869,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &95346686238316858
 RectTransform:
   m_ObjectHideFlags: 0
